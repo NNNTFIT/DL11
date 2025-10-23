@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 144px;
+    padding: 32px 0 69px 0;
+}
+.header{
+    padding: 0 69px 0 88px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+.header-logo-circle{
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    background-color: rgba(208, 208, 208, 1);
+}
+.header-logo{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.header-logo-text{
+    font-weight: 600;
+    font-size: 21.33px;
+    line-height: 24px;
+    color: rgba(40, 94, 103, 1);
+}
+.header-menu{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.Menu-img{
+    display: none;
+}
+.body{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 104px;
+    padding-bottom: 49px;
+}
+.slide1{
+    display: flex;
+    gap: 33px;
+    flex-direction: column;
+}
+.slide1-tittle{
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+}
+.slide1-tittle-tittle{
+    font-weight: 600;
+    font-size: 65.34px;
+    line-height: 82px;
+    color: rgba(42, 42, 42, 1);
+    text-align: center;
+}
+.slide1-tittle-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(43, 43, 43, 1);
+    text-align: center;
+}
+.slide1-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 56px;
+}
+.slide1-content-button{
+    width: 251px;
+    height: 56px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 67px;
+    background-color: rgba(40, 94, 103, 1);
+    font-weight: 600;
+    font-size: 21.33px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+.slide1-content-container{
+    display: flex;
+    gap: 48px;
+}
+.slide1-content-container-img{
+    border-radius: 16px;
+    width: 626px;
+    height: 391px;
+}
+.slide2{
+    height: 446px;
+    background-color: rgba(244, 244, 244, 1);
+    display: flex;
+    gap: 196px;
+    justify-content: center;
+    align-items: center;
+    border-radius:8px ;
+    background-color: rgba(244, 244, 244, 1);
+}
+.slide2-container{
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+}
+.slide2-container-tittle{
+    font-weight: 600;
+    font-size: 50.52px;
+    line-height: 62px;
+    color: rgba(43, 43, 43, 1)
+}
+.slide2-container-content{
+    display: flex;
+    gap: 69px;
+}
+.slide2-container-content-box{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.slide2-container-content-box-icon{
+    width: 58px;
+    height: 57px;
+    background-color: #285E67;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide2-container-content-box-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2B2B2B;
+}
+.slide2-img{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.slide3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+}
+.slide3-container{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.slide3-container-content{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.slide3-container-content-tittle{
+    font-weight: 600;
+    font-size: 50.52px;
+    line-height: 62px;
+    color: rgba(43, 43, 43, 1);
+}
+.slide3-container-content-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(43, 43, 43, 1);
+}
+.slide3-container-box{
+    display: flex;
+    gap: 23px;
+}
+.slide3-container-box-img{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide4{
+    height: 541px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+    background-color: rgba(244, 244, 244, 1);
+    border-radius: 12px;
+}
+.slide4-img{
+    width: 350px;
+    height: 347.499267578125px;
+}
+.slide4-container{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+.slide4-container-tittle{
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 50.52px;
+    color: rgba(43, 43, 43, 1);
+}
+.slide4-container-box{
+    display: flex;
+    gap: 69px;
+}
+.slide4-container-box-content{
+    width: 237px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.slide4-container-box-content-img{
+    width: 58px;
+    height: 57px;
+    border-radius: 9px;
+    background-color: rgba(235, 191, 174, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide4-container-box-content-img-icon{
+    width: 26px;
+    height: 29px;
+}
+.slide4-container-box-content-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(42, 42, 42, 1);
+}
+.slide5{
+    height: 832px;
+}
+.slide5-background{
+    height: 667px;
+    background: url(assets/slide5-background.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    mix-blend-mode: darken;
+    position: relative;
+}
+.slide5-content{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    position: absolute;
+    top: 99px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.slide5-content-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92.11583709716797px;
+    height: 82.0567626953125px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 9px;
+}
+.slide5-content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+.slide5-content-box-content{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+.slide5-content-box-content-tittle{
+    font-weight: 600;
+    font-size: 37.9px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.slide5-content-box-content-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.slide5-content-box-button{
+    width: 257px;
+    height: 56px;
+    border-radius: 67px;
+    background-color: transparent;
+    border: 1px solid rgba(244, 244, 244, 1);
+    font-weight: 600;
+    font-size: 21.33px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+.slide5-container{
+    position: absolute;
+    top: 476px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 1165px;
+    height: 356px;
+    background-color: rgba(252, 226, 215, 1);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    flex-wrap: wrap;
+}
+.slide5-container-box{
+    width: 245.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: center;
+}
+.slide5-container-box-text{
+    font-weight: 400;
+    font-size: 21.33px;
+    line-height: 24px;
+    color: rgba(43, 43, 43, 1);
+}
+.footer{
+    height: 245px;
+    background-color: rgba(40, 94, 103, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 139px 0 139px;
+    box-sizing: border-box;
+    gap: 36px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container-logo{
+    display: flex;
+    gap: 10px;
+}
+.footer-container-logo-img{
+    width: 26px;
+    height: 26px;
+    background-color: rgba(234, 234, 234, 1);
+    border-radius: 100%;
+}
+.footer-container-logo-text{
+    font-weight: 600;
+    font-size: 21.33px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+.footer-container-content{
+    display: flex;
+    gap: 40px;
+}
+.footer-container-content-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+.footer-socials{
+    display: flex;
+    gap: 24px;
+}
