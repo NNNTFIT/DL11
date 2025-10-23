@@ -252,6 +252,7 @@ body{
     height: 667px;
     background: url(assets/slide5-background.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 12px;
     mix-blend-mode: darken;
     position: relative;
