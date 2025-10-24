@@ -11,10 +11,10 @@ body{
     padding: 32px 0 69px 0;
 }
 .header{
-    padding: 0 69px 0 88px;
+    width: 1300px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    padding-left: 18px;
     box-sizing: border-box;
 }
 .header-logo-circle{
@@ -100,6 +100,7 @@ body{
     border-radius: 16px;
     width: 626px;
     height: 391px;
+    object-fit: cover;
 }
 .slide2{
     height: 446px;
@@ -345,10 +346,14 @@ body{
     height: 245px;
     background-color: rgba(40, 94, 103, 1);
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-box{
+    width: 1300px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 139px 0 139px;
-    box-sizing: border-box;
     gap: 36px;
 }
 .footer-container{

@@ -6,6 +6,9 @@
     .container{
         gap: 60px;
     }
+    .header{
+        width: 884px;
+    }
     .slide1-tittle-text{
         padding: 0 110px 0 110px;
         box-sizing: border-box;
@@ -15,9 +18,16 @@
     }
     .slide1-content-container-img{
         width: 427px;
+
     }
     .slide2-img{
         display: none;
+    }
+    .slide2-container-content-box{
+        align-items: center;
+    }
+    .slide2-container-content-box-text{
+        text-align: center;
     }
     .slide2-container{
         gap: 69px;
@@ -40,6 +50,12 @@
     .slide4-img{
         display: none;
     }
+    .slide4-container-box-content{
+        align-items: center;
+    }
+    .slide4-container-box-content-text{
+        text-align: center;
+    }
     .slide5{
         height: 873px;
     }
@@ -56,6 +72,11 @@
     }
     .footer{
         height: 305px;
+    }
+    .footer-box{
+        width: 884px;
+        box-sizing: border-box;
+        padding-left: 68px;
     }
     .footer-container{
         gap: 36px;
