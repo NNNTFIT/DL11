@@ -355,6 +355,8 @@ body{
     flex-direction: column;
     justify-content: center;
     gap: 36px;
+    padding-left: 69px;
+    box-sizing: border-box;
 }
 .footer-container{
     display: flex;
