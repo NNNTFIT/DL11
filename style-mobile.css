@@ -29,7 +29,6 @@
     .slide1-content-container{
         flex-direction: column;
     }
-
     .slide2{
         height: fit-content;
         padding: 27.5px 0 31.5px 0;
@@ -66,6 +65,7 @@
     }
     .slide3-container-content-tittle{
         text-align: center;
+        font-size: 39.7px;
     }
     .slide3-container-content-text{
         text-align: center;
