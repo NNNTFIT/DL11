@@ -47,6 +47,12 @@
     .slide3-container-content{
         gap: 16px;
     }
+    .slide3-container-box-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(40, 94, 103, 1);
+    }
     .slide3-img{
         max-width: 429.5px;
         height: 578px;
