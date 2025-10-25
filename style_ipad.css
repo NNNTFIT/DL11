@@ -62,9 +62,6 @@
     .slide5{
         height: 873px;
     }
-    .slide5-background{
-
-    }
     .slide5-container{
         width: 743px;
         height: 397px;
@@ -81,9 +78,7 @@
         height: 305px;
     }
     .footer-box{
-        width: 884px;
-        box-sizing: border-box;
-        padding-left: 68px;
+        max-width: 743px;
     }
     .footer-container{
         gap: 36px;
