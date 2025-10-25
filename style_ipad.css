@@ -1,13 +1,13 @@
-@media (max-width: 1300px){
+@media (max-width: 1024px){
     .body{
-        width: 884px;
+        max-width: 884px;
         gap: 80px;
     }
     .container{
         gap: 60px;
     }
     .header{
-        width: 884px;
+        max-width: 884px;
     }
     .slide1-tittle-text{
         padding: 0 110px 0 110px;
@@ -18,7 +18,10 @@
     }
     .slide1-content-container-img{
         width: 427px;
-
+    }
+    .slide2{
+        padding: 0;
+        justify-content: center;
     }
     .slide2-img{
         display: none;
@@ -59,12 +62,16 @@
     .slide5{
         height: 873px;
     }
+    .slide5-background{
+
+    }
     .slide5-container{
         width: 743px;
         height: 397px;
         padding: 71px 0 71px 0;
         gap: 42px;
         box-sizing: border-box;
+        flex-wrap: wrap;
     }
     .slide5-container-box-img-icon{
         width: 60px;

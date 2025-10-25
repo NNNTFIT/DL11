@@ -1,9 +1,9 @@
-@media (max-width: 884px){
+@media (max-width: 767px){
     .container{
         gap: 63px;
     }
     .header{
-        width: 360px;
+        max-width: 360px;
         padding: 0;
     }
     .header-menu{
@@ -15,7 +15,7 @@
         height: 24px;
     }
     .body{
-        width: 360px;
+        max-width: 360px;
         gap: 36px;
         padding: 0;
     }
