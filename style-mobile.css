@@ -29,11 +29,7 @@
     .slide1-content-container{
         flex-direction: column;
     }
-    .slide1-content-container-img{
-        width: 356px;
-        height: 391px;
-        object-fit: cover;
-    }
+
     .slide2{
         height: fit-content;
         padding: 27.5px 0 31.5px 0;
@@ -62,7 +58,7 @@
         gap: 25px;
     }
     .slide3-img{
-        width: 360px;
+        max-width: 360px;
         height: 578px;
     }
     .slide3-container{

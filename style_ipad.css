@@ -16,8 +16,11 @@
     .slide1-content-container{
         gap: 28px;
     }
-    .slide1-content-container-img{
-        width: 427px;
+    .slide1-content-container-img-1{
+        background-position: center;
+    }
+    .slide1-content-container-img-2{
+        background-position: center;
     }
     .slide2{
         padding: 0;
@@ -45,7 +48,7 @@
         gap: 16px;
     }
     .slide3-img{
-        width: 429.5px;
+        max-width: 429.5px;
         height: 578px;
         object-fit: cover;
         border-radius: 16px;
